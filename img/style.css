@@ -1,0 +1,51 @@
+#counter{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9;
+}
+
+#circle{
+	height: 168px;
+	width: 168px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+
+#circle2{
+	height: 192px;
+	width: 192px;
+	background-color: #BBD9DB;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+}
+.item img{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.slides{
+	margin-top: 80px;
+	background-image: url('../img/image.jpg');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	min-height: 550px;
+	color:#ddd;
+	z-index: 20;
+}
+.roundone{
+	margin: 50px;
+}
